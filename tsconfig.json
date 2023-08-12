@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "noEmit": false,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "experimentalDecorators":true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "baseUrl": "src",
+    "outDir": "./tmp",
+    "types": [
+      "webpack-env",
+      "@dcloudio/types",
+      "miniprogram-api-typings",
+      "mini-types"
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "vueCompilerOptions": {
+    "target": 2
+  },
+  "exclude": [
+    "node_modules",
+    "unpackage",
+    "HBuilder-Integrate-AS",
+    "src/**/*.nvue",
+    "tmp",
+    "./lib",
+    "./dist",
+    "./*.js"
+  ]
+}

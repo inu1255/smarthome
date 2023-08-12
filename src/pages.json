@@ -1,0 +1,75 @@
+{
+  "pages": [
+    {
+      "path": "pages/main/main",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/main/mi-login",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/main/mine",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/main/chat",
+      "style": {
+        "navigationBarTitleText": "对话"
+      }
+    },
+    {
+      "path": "pages/view/form",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "static/images/tabBar/home.png",
+        "selectedIconPath": "static/images/tabBar/home_a.png"
+      },
+      {
+        "pagePath": "pages/main/mine",
+        "text": "我的",
+        "iconPath": "static/images/tabBar/mine.png",
+        "selectedIconPath": "static/images/tabBar/mine_a.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh": false,
+    // #ifdef H5
+    "navigationStyle": "custom",
+    // #endif
+    "pageOrientation": "auto"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+      "^i-(.*)": "@/components/i-$1.vue",
+      "^hd-(.*)": "@/hd/$1.vue",
+      "^layouts-(.*)": "@/layouts/$1.vue"
+    }
+  }
+}
