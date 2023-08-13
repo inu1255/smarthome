@@ -5,7 +5,7 @@
 
 # 鸣谢
 
-https://github.com/Yonsm/MiService
-https://github.com/nszdhd1/UtilScript
-https://github.com/CreditTone/hooker
-https://github.com/yihong0618/xiaogpt
+https://github.com/Yonsm/MiService  
+https://github.com/nszdhd1/UtilScript  
+https://github.com/CreditTone/hooker  
+https://github.com/yihong0618/xiaogpt  
