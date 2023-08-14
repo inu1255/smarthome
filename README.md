@@ -3,6 +3,10 @@
 
 使用uniapp开发,使用frida和charless抓包
 
+# APK下载
+
+https://wwi.lanzoup.com/b0872olng 密码:ennf
+
 # 鸣谢
 
 https://github.com/Yonsm/MiService  
